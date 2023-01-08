@@ -1,0 +1,38 @@
+body {
+  background-color: #045256;
+  margin: 0%;
+}
+nav {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  position: relative;
+  color: blue;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ddf7f8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(7, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(190, 250, 159);
+}
+
+.active {
+  background-color: #168f85;
+}
