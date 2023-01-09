@@ -1,605 +1,351 @@
-.bac {
-  width: 100%;
-  height: 650px;
-  position: relative;
-  margin: 0%;
-  display: flex;
-}
-.bac::before {
-  content: "";
-  background: url("New.jpg");
-  background-attachment: fixed;
-  opacity: 1;
-  position: absolute;
-  margin: 0%;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  /* filter: grayscale(); */
-}
-body {
-  margin: 0%;
-}
-.icons {
-  display: flex;
-}
-.icons img {
-  height: 40px;
-  width: 40px;
-}
-nav {
-  margin: 0;
-  display: inline;
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    
+  />
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
 
-  background-color: #c06e6e;
-}
-.navbar {
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #d0a98d;
-  border-top: 2px solid rgb(248, 248, 250);
-}
+</head>
+<title>Narmadha-Portfolio</title>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a target="_self" href="#about">About</a></li>
+      <li style="float: right">
+        <a target="_self" href="#contact">Contact</a>
+      </li>
+  
+      <li style="float: right"><a href="#work">Work</a></li>
+    </ul>
+  </nav>
+  <div class="bac" id="home">
+    <div class="bo">
+      <a href="https://www.linkedin.com/in/narmadha-mayilraj-662522217/">
+        <img
+          id="linked"
+          src="https://innerventur.es/wp-content/uploads/2020/10/white-linkedin-icon.png"
+      /></a>
+      <a href="https://github.com/narm2cool">
+        <img
+          src="https://www.sferalabs.cc/wp-content/uploads/github-logo-white-300x199.png"
+      /></a>
+      <a href="https://www.instagram.com/na.rmadha/">
+        <img
+          id="insta"
+          src="https://www.pngkey.com/png/full/1-19361_watercolor-instagram-icon-png-instagram-logo-white-on.png"
+      /></a>
+    </div>
+    <div class="box">
+      <div class="header-content">
+        <h4 class="header-subtitle">Hello, I am</h4>
+        <h1 class="header-title">Narmadha Mayilraj</h1>
+        <h6 class="header-mono">Full Stack Developer | Java</h6>
+      </div>
+    </div>
+  </div>
 
-li {
-  float: left;
-}
+  <div class="container" id="about">
+    <div class="abc">
+     
 
-li a {
-  display: block;
-  color: rgb(1, 10, 5);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+      <div class="container1">
+        <div class="abc1">
+      <div id="ab">About Me</div>
+         
+          <div class="one">
+            I am a graduate in Electronics and Communication in 2022.I did my under
+            graduation in College of Engineering,Guindy.I am currently an employee
+            of Mphasis under the role of a Software Engineer. I am someone who
+            prefers work to studies, but at the same time someone who never stops
+            learning. I can code in C,C++ decently, as well as in Java, and want to
+            learn Python and other languages.I prefer to study on my own, learning
+            things I can realistically apply in doing what I enjoy doing for a
+            living–programming.
+          </div>
+          <div class="two">
+            I would characterize myself as an active person.I love to train my body
+            and mind to be focused. I keep myself physically fit by workouts and diet
+            which I believe would help in achieving stability. During my Schooling I
+            was an athelete where I learnt to be a team player and communication in
+            a team work.
+          </div>
+          <div class="three">
+            During my college I got good knowledge on hardware language,verilog and
+            assembly language where we code for microprocessors and
+            microcontrollers. Also I am good at digital electronics which fascinated
+            me on how a computer is built from the lower level.
+          </div>
+          <div class="four">
+            Being in a college like College of Engineering,Guindy taught me in
+            various aspects of studying and development of skills other than
+            acedemics. This developed a diverse knowledge on various fields.
+          </div>
+          <br>
+          <br>
+          <br>
 
-li a:hover:not(.active) {
-  background-color: rgb(114, 117, 112);
-}
+          <div class="butto"><a  href="Narmadha_Resume.pdf" download> <button class="btn"> Download My Resume <i class="fa fa-download"></i></button></a>
+        </div>
+     </div>
+        <div class="imagebox"><img id="image" src="photo.jpeg" /></div>
+      </div>
+    
+  
+<br>
 
-.active {
-  background-color: #cfad95;
-}
-.header-content {
-  font-size: 30px;
-  color: white;
-  text-shadow: #000405;
-  position: relative;
-  left: 20px;
-}
-.bo {
-  display: flex;
-  width: 10%;
-  height: 20%;
-  position: absolute;
-  left: 20px;
-  color: #c5efef;
-  top: 10px;
-}
-.bo img {
-  top: 50px;
-  height: 40px;
-  width: 50px;
-}
-#insta {
-  padding-top: 2%;
-  width: 35px;
-  height: 35px;
-  align-items: baseline;
-}
-#linked {
-  padding-top: 2%;
-  width: 35px;
-  height: 35px;
-  align-items: baseline;
-}
-.box {
-  display: flex;
-  width: 70%;
-  height: 300px;
-  position: relative;
-  top: 200px;
-  left: 10px;
-}
-#about {
-  background-color: #31220f;
-  justify-content: center;
-  padding-bottom: 2%;
-}
-#ab {
-  font-size: larger;
-  text-shadow: #ddf7f8;
-  color: rgb(97, 12, 12);
-  text-align: center;
-  font-size: 25px;
-}
+    <div class="grid1">
+    <div class="grid"> 
+      <div class="cell"> <h2 class="Personal"> Personal information</h2>
+      <div id="oneline"><p id="block" > Name: </p><p> Narmadha Mayilraj</p></div>
+      <div id="oneline"><p id="block" > DOB: </p><p> 25.10.2000</p></div>
+        <div id="oneline"><p id="block"> Email: </p><p> narmadhamayilraj@gmail.com</p></div>
+          <div id="oneline"><p id="block">Phone:</p><p> +919894802738</p></div>
+            <div id="oneline"></p>
+      <p id="block"> Address: </p><p> 28,Subash Boss street, Rudrapalayam, Tiruppur </p></div>
 
-.onee {
-  display: flex;
-}
+  </div>
+  <div class="cell" id="educat">
+    <h2 class="Personal">Eduactional Details</h2>
+    <p><span id="titl">Under Graduation - Anna University(College Of Engineering,Guindy):</span>  
+   <br> <span style="color: rgb(79, 78, 78);">BE in Electronics and Communication with CGPA of 8.31.(2018-2022)</span></p>
+  
+  <p><span id="titl">HSC- Srinivasa Vidhyalaya High School:</span>  
+    <br> <span style="color:  rgb(90, 86, 86);">95.58 percentage with Math and Biology as Major(2017-2018).</span></p>
 
-.container1 {
-  display: flex;
-}
-#image {
-  padding: 10%;
-  height: 12cm;
-  width: 8cm;
-}
-.imagebox {
-  padding-right: 4%;
-  margin-right: 2%;
-}
-#ab {
-  font-size: larger;
-  text-shadow: #ddf7f8;
-  color: rgb(236, 124, 50);
-  text-align: center;
-  font-size: 25px;
-}
-.abc1 {
-  height: 100%;
-  width: 90%;
-  padding-left: 3%;
-  padding-right: 2%;
-  padding-top: 4%;
-}
-.on {
-  font-family: cursive;
-  font-size: 30px;
-  color: rgb(88, 234, 154);
-  text-align: center;
-}
-.one {
-  padding-top: 2%;
-  font: inherit;
-  color: #f7f8dd;
-  text-align: right;
-  text-decoration: wavy;
-  font-size: 15px;
-}
-.two {
-  padding-top: 2%;
-  font: inherit;
-  color: #f7f8dd;
-  text-align: right;
-  text-decoration: wavy;
-  font-size: 15px;
-}
-.three {
-  padding-top: 2%;
-  font: inherit;
-  color: #f7f8dd;
-  text-align: right;
-  text-decoration: wavy;
-  font-size: 15px;
-}
-.four {
-  padding-top: 2%;
-  font: inherit;
-  color: #f7f8dd;
-  text-align: right;
-  text-decoration: wavy;
-  font-size: 15px;
-}
+  <p><span id="titl">SSLC- Srinivasa Vidhyalaya High School:</span>  
+    <br> <span style="color:  rgb(62, 61, 61);">97.8 percentage (2017-2018).</span></p>
+   </div>
+<div class="cell" id="extra">
+  <h2 class="Personal">Extra Curricular Interests</h2>
+  <table>
+    <tr>
+      <td style="width: 50px">
+        <img  id="pslogo" src="https://th.bing.com/th/id/R.930e26716365d445199da027beba972e?rik=GNVWcBWg4nvsww&riu=http%3a%2f%2fpngimg.com%2fuploads%2fphotoshop%2fphotoshop_PNG56.png&ehk=kzpasgSGIpIzllQWXVKjyM1kCW42tK9Iq1WGaMFWK8U%3d&risl=&pid=ImgRaw&r=0">
+      </td>
+      <td style="font-size:20px">
+        <span style="font-style:oblique"> Photoshop</span>         <br>
+        <span style="font-size:15px" style="color:rgb(70, 70, 70)">Designed posters for Rotract Club of Ceg and Served as Design head for the year 2021.</span>
+      </td>
+    </tr>
+    </table>
+    <br>
+    <table>
+    <tr>
+      <td style="width: 50px">
+        <img  id="pslogo" src="https://images.vexels.com/media/users/3/228573/isolated/preview/ba5d6f691100b45fa5155e972afe54fa-handball-hand-logo-by-vexels.png">
+      </td>
+      <td style="font-size:20px">
+        <span style="font-style:oblique">Handball </span> 
+        <br>
 
-.btn {
-  background-color: #653214;
-  border-radius: 45%;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-}
+        <span style="font-size:15px" style="color:rgb(69, 69, 69)">District player in handball during school.</span>
+      </td>
+    </table>
+    <br>
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: #b95f5f;
-}
-.butto {
-  display: flex;
-  justify-content: center;
-  border-top: 0;
-  border-radius: 100%;
-}
-.grid1 {
-  padding-left: 10px;
-}
-.grid {
-  display: grid;
-  grid-template-columns: 29% 37% 29%;
-  grid-column-gap: 20px;
-  -ms-grid-column-align: center;
-  padding-top: 2%;
-  border-left: white;
-}
-.cell {
-  border-right: 2px solid rgb(248, 248, 250);
-  padding-left: 5%;
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-  border-top: 0;
-  background-color: #909293;
+    <table>
+    </tr>
+    <tr>
+      <td style="width: 50px">
+        <img  id="pslogo" src="https://www.logolynx.com/images/logolynx/2d/2d852b0adafa77bbec494fccdacb4ee1.png">
+      </td>
+      <td style="font-size:20px">
+       <span style="font-style:oblique">Athletics</span> 
+        <br>
+        <span style="font-size:15px" style="color:rgb(60, 59, 59)">Won several medals in running and I love marathon.</span>
+      </td>
+    </tr>
+  </table>
+  </div>
+  
+  
+</div>
+  </div>
+  </div>
+</div>
+  
+  <div  class="dummy">
+    <div class="skills">
+        <div class="skil">MY Skills</div>
+   <div class="innerskills">
+  <div id="skill">
+    <a href="#Popup1"><img id="java"  title="JAVA" src="https://cdn1.iconfinder.com/data/icons/system-shade-circles/512/java-512.png">
+    </a>
+  </div>
+  <Div Id="Popup1" Class="Overlay">
+    <Div Class="Popup">
+      <H2>JAVA</H2>
+      <A Class="Close" Href="#skills">&cross;</A>
+      <div class="cont">
+        <div class="sills java">80%</div>
+      </div>
+    </Div>
+  </Div>
 
-  padding-top: 3%;
-}
-.Personal {
-  color: rgb(165, 65, 11);
-  text-decoration: underline rgb(235, 195, 166);
-}
-#block {
-  font-style: oblique;
-}
-#oneline {
-  display: flex;
-  border: 0;
-}
-#titl {
-  text-decoration: solid;
-  font-style: oblique;
-}
-#educat {
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-}
-#educat p {
-  border-bottom: 2px solid #c9cdcd;
-}
-#extra {
-  border-right: none;
-}
-.dummy {
-  content: "";
-  display: flex;
-  width: 100%;
-  height: 530px;
-  background-color: #737676;
-  background-image: url("https://static.vecteezy.com/system/resources/previews/000/399/204/original/abstract-background-design-in-light-gray-vector.jpg");
-  background-size: cover;
-  border-bottom: 2px solid white;
-}
-.dummy {
-  margin: 0;
-}
+  <div id="skill">
+    <a href="#Popup2"> <img id="html" src="https://clipartcraft.com/images/html5-logo-circle.png"></a>
+    <span class="imgtext">HTML</span>
+  
+  </div>
+  <Div Id="Popup2" Class="Overlay">
+    <Div Class="Popup">
+      <H2>HTML</H2>
+      <A Class="Close" Href="#skills">&cross;</A>
+      <div class="cont">
+        <div class="sills html">85%</div>
+      </div>
+    </Div>
+  </Div>
 
-#pslogo {
-  width: 30px;
-  height: 30px;
-}
-.skills {
-  margin-top: 4%;
-  width: 80%;
-  height: 400px;
-  background-color: #989a9c;
-  justify-content: center;
-  margin: auto;
-  margin-top: 2%;
-  box-shadow: inset 0 -2em 3em rgba(14, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 2em rgb(241, 238, 238);
-}
-.skil {
-  padding-top: 2%;
-  justify-content: center;
-  margin: auto;
-  text-align: center;
-  color: #fdfbfb;
-  font-size: 30px;
-  font-family: cursive;
-  text-decoration: underline;
-}
-.innerskills {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding-left: 10%;
-}
+  <div id="skill">
+    <a href="#Popup3"> <img id="css" src="https://www.flyacts.com/multi-channel-app/images/css3.png"></a>
 
-#java {
-  height: 100px;
-  width: 100px;
-  border-radius: 150%;
-  border-width: 100px;
-  border-color: white;
-  max-zoom: 10%;
-}
+  </div>
+  <Div Id="Popup3" Class="Overlay">
+    <Div Class="Popup">
+      <H2>CSS</H2>
+      <A Class="Close" Href="#skills">&cross;</A>
+      <div class="cont">
+        <div class="sills css">82%</div>
+      </div>
+    </Div>
+  </Div>
+  <div id="skill">
+    <a href="#Popup4"> <img id="spring" src="https://i.pinimg.com/originals/36/fd/a1/36fda1085cffacaebc7613ab8f227351.png"></a>
 
-#css {
-  height: 100px;
-  width: 100px;
-  border-radius: 150%;
-  border-width: 100px;
-  padding-top: 2%;
-}
-#html {
-  height: 110px;
-  width: 110px;
-  border-radius: 50%;
-  padding-top: 2%;
-}
-#spring {
-  height: 100px;
-  width: 100px;
-  border-radius: 150%;
-  border-width: 100px;
-  padding-top: 2%;
-}
-#ang {
-  height: 100px;
-  width: 100px;
-  border-radius: 150%;
-  border-width: 100px;
-  padding-top: 2%;
-}
-#skill {
-  width: 150px;
-  height: 100px;
-  font-size: 150%;
-  color: #0b5f62;
-  align-content: space-evenly;
-  text-align: center;
-  justify-content: center;
-  padding-top: 2%;
-  padding: 20px;
-}
-.imgtext {
-  opacity: 0;
-}
-#skill:hover {
-  filter: blur(5px);
-}
+  
+  </div>
+  <Div Id="Popup4" Class="Overlay">
+    <Div Class="Popup">
+      <H2>SPRING BOOT</H2>
+      <A Class="Close" Href="#skills">&cross;</A>
+      <div class="cont">
+        <div class="sills spring">90%</div>
+      </div>
+    </Div>
+  </Div>
+  <div id="skill">
+    <a href="#Popup5">  <img id="ang" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/angular-js-512.png"></a>
 
-.Overlay {
-  position: Fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: Rgba(0, 0, 0, 0.7);
-  transition: Opacity 500ms;
-  visibility: Hidden;
-  opacity: 0;
-}
-.Overlay:target {
-  visibility: Visible;
-  opacity: 1;
-}
+  
+  </div>
+  <Div Id="Popup5" Class="Overlay">
+    <Div Class="Popup">
+      <H2>ANGULAR</H2>
+      <A Class="Close" Href="#skills">&cross;</A>
+      <div class="cont">
+        <div class="sills ang">92%</div>
+      </div>
+    </Div>
+  </Div>
+  <div id="skill">
+    <a href="#Popup6"> <img id="ang" src="  https://www.datapine.com/images/mysql-logo-big.png"></a>
 
-.Popup {
-  margin: 70px Auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
-  width: 30%;
-  position: Relative;
-  transition: All 5s Ease-In-Out;
-}
+  
+  </div>
+  <Div Id="Popup6" Class="Overlay">
+    <Div Class="Popup">
+      <H2>MYSQL</H2>
+      <A Class="Close" Href="#skills">&cross;</A>
+      <div class="cont">
+        <div class="sills sql">75%</div>
+      </div>
+    </Div>
+  </Div>
 
-.Popup H2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, Sans-Serif;
-}
-.Popup .Close {
-  position: Absolute;
-  top: 20px;
-  right: 30px;
-  transition: All 200ms;
-  font-size: 30px;
-  font-weight: Bold;
-  text-decoration: None;
-  color: #333;
-}
-.Popup .Close:hover {
-  color: #06d85f;
-}
-.Popup .Content {
-  max-height: 30%;
-  overflow: Auto;
-}
+  </div>
+    
+  </div>
+</div>
 
-@media Screen And (max-width: 700px) {
-  .Box {
-    width: 70%;
-  }
-  .Popup {
-    width: 70%;
-  }
-}
 
-.cont {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
-}
+   
 
-.sills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
-}
-.html {
-  width: 85%;
-  background-color: #eb8612;
-}
-.java {
-  width: 80%;
-  background-color: #114c6c;
-}
-.css {
-  width: 82%;
-  background-color: #3d4ad9;
-}
-.spring {
-  width: 90%;
-  background-color: #12cb50;
-}
-.ang {
-  width: 92%;
-  background-color: #c90c0c;
-}
-.sql {
-  width: 75%;
-  background-color: #2b9197;
-}
-.work {
-  color: white;
-  background-color: #000405;
-  opacity: 1;
-  width: 100%;
-  height: 650px;
-  margin-top: 5%;
-  border-bottom: 2px solid whitesmoke;
-}
-.col1 {
-  position: relative;
-  top: 20%;
-}
-.row1 {
-  margin-bottom: 5%;
-}
-.grid3 {
-  display: grid;
-  grid-template-columns: 50% 48%;
-  height: 100%;
-  position: relative;
-  top: 10%;
-}
-.grid4 {
-  display: grid;
-  grid-template-columns: 30% 40%;
-  position: relative;
+  <div class="work" id="work">
+    
+      <div class="grid3">
+    
+            <div class="col1">
+               <span class="worktitle">Work experience</span>
+                   <br>
+               <div class="grid4">
+                    <div class="row1-1"><img class="mphasislogo" src="https://www.dreamoffers.co/templates/img/mphasis/Mphasis_logo.png"></div>
+                    <div class="row2-2">July,2022-present
+                     <br> Software Engineer Level-3.
+                    </div>
+               </div>
 
-  top: 20px;
-}
-.worktitle {
-  color: rgb(238, 238, 232);
-  position: relative;
-  left: 15%;
+               <div class="grid4">
+                <div class="row1-1"><img class="mphasislogo" src="https://sloanreview.mit.edu/wp-content/uploads/2019/12/Cognizant_Logo_white-150.png"></div>
+                <div class="row2-2">Apr 2022- June 2022
+                 <br> Intern-UI/UX.
+                </div>
+           </div>
+         </div>
+         <div class="col-1">
+               <div class="row1"><div class="hoverwrap">
+                <img src="portfolio1.png"/>
+                <div class="hovercap"><span class="git"><a href="https://github.com/narm2cool/Employee-pay-roll-app.git">
+                  <img
+                    src="https://www.sferalabs.cc/wp-content/uploads/github-logo-white-300x199.png"
+                /></a> </span></div>
+              </div></div>
+                 <div class="row2"><div class="hoverwrap">
+                  <img src="porfolio2.png"/>
+                  <div class="hovercap"><span class="git"><a href="https://github.com/narm2cool/MaAdhar_app.git">
+                    <img
+                      src="https://www.sferalabs.cc/wp-content/uploads/github-logo-white-300x199.png"
+                  /></a> </span></div>
+                </div></div>
+           </div>
+     </div>
+</div>
+</div>
+<div class="contact" id="contact" >
+  <div class="address" >
+   <span class="adheading" ><b>Address</b></span>
+    
+    <p class="addetails">27,Subash Boss Street</p>
+    
+    <p class="addetails">Rudrapalayam</p>
+    
+    <p class="addetails">Madathukulam</p>
+    
+    <p class="addetails">Tiruppur </p>
+    
+    <p>Pin code -642204</p>
+  </div>
+  <div class="Ping">
+   <span class="conheading"><b>Contact Me</b></span> 
+    <br>
+    <img src="icons8-iphone-se-30.png" style="height: 15px; width: 20px;padding-top: 15px;"> +919894802738
+    <br>
+    <div class="instagram" style="display:flex;padding-top: 10px;">
+    <img src="icons8-instagram-30.png" style="height: 20px; width: 20px;"> na.rmadha</div>
+ 
+    <div class="mail" style="display:flex;padding-top: 10px;padding-bottom: 10px;">
+    <img src="icons8-mail-50.png" style="height: 20px; width: 20px;">narmadhamayilraj@gmail.com
+     </div>
+     <button class="mailme"><a href="mailto:narmadhamayilraj@gmail.com" style="color:black;">Mail Me</a></button>
+  </div>
+</div>
 
-  font-size: 40px;
-}
-.mphasislogo {
-  width: 150px;
-  left: 15%;
-  position: relative;
-}
-.row2-2 {
-  text-align: end;
-}
+<nav class="navbar">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a target="_self" href="#about">About</a></li>
+    <li style="float: right">
+      <a target="_self" href="#contact">Contact</a>
+    </li>
 
-.hoverwrap {
-  position: relative; /* required for (c2) */
-  max-width: 500px; /* optional */
-  border: 1px solid white;
-  border-radius: 10%;
-  box-shadow: inset 0 3em 2em rgba(235, 236, 231, 0.5),
-    0 0 0 1px rgb(255, 255, 255), 0.5em 0.5em 0.5em rgba(243, 243, 240, 0.8);
-}
+    <li style="float: right"><a href="#work">Work</a></li>
+  </ul>
+</nav>
+  </body>
 
-/* (B) RESPONSIVE IMAGE */
-.hoverwrap img {
-  width: 100%;
-  height: 80%;
-  border-radius: 10%;
-  box-shadow: #06d85f;
-}
-
-/* (C) CAPTION */
-.hovercap {
-  /* (C1) DIMENSIONS */
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  justify-content: center;
-  border-radius: 10%;
-  border: 1px solid white;
-
-  /* (C2) PLACE AT BOTTOM */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-
-  /* (C3) COLORS */
-  background-color: rgba(80, 37, 155, 0.9);
-  color: rgb(205, 26, 26);
-}
-.row2 .hovercap {
-  /* (C1) DIMENSIONS */
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  justify-content: center;
-  border-radius: 10%;
-  border: 1px solid white;
-
-  /* (C2) PLACE AT BOTTOM */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-
-  /* (C3) COLORS */
-  background-color: rgba(255, 148, 178, 0.9);
-  color: rgb(205, 26, 26);
-}
-.git {
-  position: absolute;
-  bottom: 45%;
-  left: 47%;
-}
-.git img {
-  height: 40px;
-  width: 50px;
-}
-
-/* (D) SHOW/HIDE */
-.hovercap {
-  visibility: none;
-  opacity: 0;
-  /* transition: opacity 0.3s;*/
-}
-.hoverwrap:hover .hovercap {
-  visibility: visible;
-  opacity: 1;
-}
-.contact {
-  background-color: rgb(248, 242, 169);
-  height: 200px;
-  display: flex;
-}
-
-.address {
-  position: relative;
-  width: 40%;
-  height: 250px;
-  text-align: end;
-  padding-right: 10%;
-}
-.adheading {
-  font-size: 24px;
-  font-family: "Times New Roman", Times, serif;
-  top: 10px;
-  position: relative;
-}
-.contact {
-  padding-left: 10%;
-}
-.conheading {
-  font-size: 24px;
-  position: relative;
-  top: 10px;
-}
-.mailme {
-  width: 100px;
-}
-.addetails {
-  line-height: 10px;
-}
